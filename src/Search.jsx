@@ -22,7 +22,7 @@ function Search({setWeather,setError})
 
     async function callapi()
     {
-        let key="5fd5281cc97f3b0b1e9e40dc8b701952";
+        //key: your api key
         let geo_URL = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${key}`;        //geocoding
         let w_data;
         try{
