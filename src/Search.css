@@ -1,0 +1,14 @@
+.Search{
+    text-align: center;
+}
+.inp{
+    width: 275px;
+}
+.cont{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 375px;
+    justify-content: space-between;
+}
